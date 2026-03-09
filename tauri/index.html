@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flafka - Coming Soon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #1a1a2e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .logo {
+        max-width: 256px;
+        margin-bottom: 40px;
+      }
+      .coming-soon {
+        color: red;
+        font-size: 2.5rem;
+        font-weight: bold;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/fob-logo-sm.png" alt="Flafka Logo" class="logo" />
+    <div class="coming-soon">Coming Soon</div>
+  </body>
+</html>

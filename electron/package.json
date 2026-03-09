@@ -1,0 +1,29 @@
+{
+  "name": "flafka-poc-electron",
+  "version": "1.0.0",
+  "description": "Flafka POC - Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.lukeangel.flafka-poc",
+    "productName": "Flafka",
+    "files": [
+      "main.js",
+      "index.html",
+      "fob-logo-sm.png"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.8.0",
+    "electron-builder": "^26.8.1"
+  }
+}
